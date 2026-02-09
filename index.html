@@ -1,75 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Neale Welch — Interpretive AI Advisory</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neale Welch | Interpretive AI Advisory</title>
 
-  <style>
-    body {
-      margin: 0;
-      padding: 4rem 1.25rem;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Helvetica, Arial, sans-serif;
-      color: #111;
-      background: #fff;
-      line-height: 1.6;
-    }
+<style>
+  :root {
+    --max-width: 600px;
+    --text-color: #1a1a1a;
+    --muted-color: #555;
+    --background: #faf9f7;
+  }
 
-    .container {
-      max-width: 720px;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    color: var(--text-color);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.65;
+    font-size: 16px;
+  }
 
-    h1 {
-      font-size: 2rem;
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
+  header {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 24px 16px 8px 16px;
+  }
 
-    h2 {
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: #555;
-      margin-top: 0;
-      margin-bottom: 2.5rem;
-    }
+  nav {
+    font-size: 14px;
+  }
 
-    h3 {
-      font-size: 1.15rem;
-      font-weight: 600;
-      margin-top: 2.75rem;
-      margin-bottom: 1rem;
-    }
+  nav a {
+    color: var(--muted-color);
+    text-decoration: none;
+    margin-right: 14px;
+  }
 
-    p {
-      margin-bottom: 1.25rem;
-    }
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-    .divider {
-      margin: 2.75rem 0;
-      border: none;
-      border-top: 1px solid #e5e5e5;
-    }
+  main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 24px 16px 72px 16px;
+  }
 
-    .contact {
-      margin-top: 0.5rem;
-    }
-  </style>
+h1 {
+  font-size: 36px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+
+  h2 {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    color: var(--muted-color);
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
+
+h3 {
+  font-size: 19px;
+  margin-top: 48px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+
+  p {
+    margin-bottom: 18px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .contact a {
+    color: var(--text-color);
+    text-decoration: underline;
+  }
+</style>
+
+
 </head>
 
 <body>
-  <main class="container">
+
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#interpretation">Interpretation</a>
+      <a href="#consequences">Consequences</a>
+      <a href="#stabilisation">Stabilisation</a>
+      <a href="#limits">Limits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
 
     <h1>Neale Welch</h1>
-    <h2>Interpretive AI Advisory</h2>
+    <h2>Interpretive AI Advisory<br>
+    Independent interpretive advisory on AI-mediated systems and environments.</h2>
 
-    <p>
-      Independent interpretive advisory on AI-mediated systems and environments.
-    </p>
-
-    <hr class="divider">
-
-    <h3>About the Advisory</h3>
+    <h3 id="about">About the Advisory</h3>
 
     <p>
       Neale Welch provides independent interpretive advisory on AI-mediated systems and environments.
@@ -78,21 +119,26 @@
     </p>
 
     <p>
-      This work centres on interpretive judgement at moments where ambiguity, representation, or
-      intent may become binding. This includes examining how AI systems are likely to resolve meaning,
-      where interpretive risk arises once mediation occurs, and how particular framings or claims
-      propagate downstream after adoption by models, institutions, or markets.
+      This work centres on interpretive judgement at moments where ambiguity, representation, or intent
+      may become binding. This includes examining how AI systems are likely to resolve meaning, where
+      interpretive risk arises once mediation occurs, and how particular framings or claims propagate
+      downstream after adoption by models, institutions, or markets.
     </p>
 
     <p>
+      The decisive shift occurs when interpretation ceases to be optional and instead becomes operational
+      — when AI-mediated representations are acted upon, relied upon, or repeated as if settled.
+    </p>
+
+    <p id="consequences">
       The focus is on points at which interpretation acquires consequence. It addresses how meaning is
       effectively fixed once AI-mediated representations are treated as authoritative, regardless of
       original intent.
     </p>
 
-    <hr class="divider">
+    <hr>
 
-    <h3>Interpretation as Infrastructure</h3>
+    <h3 id="interpretation">Interpretation as Infrastructure</h3>
 
     <p>
       As AI systems increasingly mediate language, decisions, and public understanding, interpretation
@@ -100,9 +146,9 @@
       summarise, classify, or decide.
     </p>
 
-    <p>
-      In these conditions, interpretation becomes infrastructure. It shapes outcomes long after
-      original intent has faded, and it persists through repetition, delegation, and reliance.
+    <p id="stabilisation">
+      In these conditions, interpretation becomes infrastructure. It shapes outcomes long after original
+      intent has faded, and it persists through repetition, delegation, and reliance.
     </p>
 
     <p>
@@ -110,9 +156,9 @@
       acknowledged, named, or intentionally designed for.
     </p>
 
-    <hr class="divider">
+    <hr>
 
-    <h3>Scope and Limits</h3>
+    <h3 id="limits">Scope and Limits</h3>
 
     <p>
       This work does not assess whether outcomes are ethical, fair, compliant, or desirable. It is
@@ -130,15 +176,16 @@
       determine, or prescribe decisions taken on the basis of that meaning.
     </p>
 
-    <hr class="divider">
+    <hr>
 
-    <h3>Contact</h3>
+    <h3 id="contact">Contact</h3>
 
     <p class="contact">
       For enquiries relating to interpretive advisory work:<br>
-      <strong>nealewelch@proton.me</strong>
+      <a href="mailto:nealewelch@proton.me">nealewelch@proton.me</a>
     </p>
 
   </main>
+
 </body>
 </html>
