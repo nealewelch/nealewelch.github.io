@@ -8,15 +8,39 @@
   <link rel="icon" type="image/svg+xml" href="/favicon-32.svg">
   <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16.svg">
 
-  <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://nealewelch.com/#person",
-  "name": "Neale Welch",
-  "url": "https://nealewelch.com",
-  "sameAs": [
-    "https://entityworks.ai"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://nealewelch.com/#person",
+      "name": "Neale Welch",
+      "url": "https://nealewelch.com",
+      "sameAs": [
+        "https://entityworks.ai"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://nealewelch.com/#website",
+      "url": "https://nealewelch.com",
+      "name": "Neale Welch — Interpretive AI Advisory",
+      "publisher": {
+        "@id": "https://nealewelch.com/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://nealewelch.com/#webpage",
+      "url": "https://nealewelch.com",
+      "isPartOf": {
+        "@id": "https://nealewelch.com/#website"
+      },
+      "about": {
+        "@id": "https://nealewelch.com/#person"
+      }
+    }
   ]
 }
 </script>
